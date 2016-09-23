@@ -16,7 +16,9 @@ alert("Welcome"+ mainPlayer.name);
 
 var phrase0 = [prompt("Please enter mother's maiden name."),
             prompt("Enter your phone number"),
-            prompt("enter your credit card number.")];
+            prompt("enter your credit card number.")
+            prompt("Who is your first born child.")
+];
 
 for (var i = 0 ; i < phrases.length ; i++){
     mainPlayer.messenger(phrases[i]);
